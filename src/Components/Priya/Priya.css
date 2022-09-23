@@ -1,0 +1,129 @@
+#about{
+    marginTop: auto;
+    background: linear-gradient(rgb(0, 1, 51) 0%, rgb(15, 16, 72) 100%);
+    padding: 2rem;
+
+}
+#aboutI{
+     margin-left: auto;
+     margin-right: 130px;
+    border-radius: 60% ;
+}#resume{
+    padding: 20px 40px ;
+    background-color: rgb(106, 81, 106);
+    color: aliceblue;
+    cursor: pointer;
+    font-size: x-large;
+    border:1px solid white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#resume:hover{
+    background-color: #3570e5;
+    color: black;
+}
+.same{
+    font-family: Raleway;
+    font-size:60px;
+    color:white;
+    text-align: start;
+}.text{
+    font-size: 20px ;
+    color:white;
+    
+}
+#b{
+    font-family: Raleway;
+    font-size:60px;
+    background: linear-gradient(to left,
+    violet,
+    white,
+  
+   
+    blue,
+    green,
+    yellow,
+    
+    orange,
+    red);
+-webkit-background-clip: text;
+color: transparent;
+    
+}
+@media (max-width: 1076px) {
+    .same{
+        font-family: Raleway;
+        font-size:50px;
+        color:white;
+        text-align: start;
+    }
+    .text{
+        font-size: 25px ;
+        color:blue
+    }
+    #b{
+        font-size:50px;
+    } 
+}
+@media (max-width: 850px) {
+    .same{
+        font-family: Raleway;
+        font-size:40px;
+        color:white;
+        text-align: start;
+    }
+    .text{
+        font-size: 25px ;
+        color:blue
+    } 
+    #b{
+        font-size:40px;
+    } 
+}
+@media (max-width: 650px) {
+    .same{
+        font-family: Raleway;
+        font-size:60px;
+        color:white;
+        text-align: start;
+    }
+    .text{
+        font-size: 25px ;
+        color:white
+    } 
+    #b{
+        font-size:60px;
+    } 
+}
+@media (max-width: 286px) {
+    .same{
+        font-family: Raleway;
+        font-size:20px;
+        color:white;
+        text-align: start;
+       
+    }
+    .text{
+        font-size: 15px ;
+        color:white
+    } 
+    #b{
+        font-size:20px;
+    } 
+}
+@media (max-width: 410px) {
+    .same{
+        font-family: Raleway;
+        font-size:25px;
+        color:white;
+        text-align: start;
+       
+    }
+    .text{
+        font-size: 16px ;
+        color:white
+    } 
+    #b{
+        font-size:16px;
+    } 
+}

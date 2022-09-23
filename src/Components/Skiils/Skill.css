@@ -1,0 +1,77 @@
+.skills{
+    border:2px solid orangered;
+ 
+    height: auto;
+    width: 100%;
+    padding:0.50rem;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+.skills2{
+    border:2px solid white;
+ 
+    height: auto;
+    width: 100%;
+    padding:0.50rem;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+.skills3{
+    border:2px solid greenyellow;
+ 
+    height: auto;
+    width: 100%;
+    padding:0.50rem;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+.skills4{
+    border:2px solid rgb(172, 13, 175);
+ 
+    height: auto;
+    width: 100%;
+    padding:0.50rem;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+.skills5{
+    border:2px solid rgba(167, 5, 35, 0.901);
+ 
+    height: auto;
+    width: 100%;
+    padding:0.50rem;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+.skills6{
+    border:2px solid rgb(133, 192, 45);
+ 
+    height: auto;
+    width: 100%;
+    padding:0.50rem;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+.skills7{
+    border:transparent;
+ 
+    height: auto;
+    width: 100%;
+    padding:0.50rem;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+#name{
+    color:white;
+    font-size: x-large;
+}
+#name{
+    border-radius: 5px;
+}
