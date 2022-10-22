@@ -4,3 +4,14 @@
     font-size: 20px;
     text-align: start;
 }
+#some{
+  padding: 60px;
+}
+@media screen and (max-width: 480px) {
+    #some{
+        padding: 2px;
+      }
+      .prot{
+        font-size: 18px;
+      }
+  }

@@ -6,8 +6,8 @@ const Project = () => {
     
     
     <SimpleGrid id="tomar" sx={{background: "linear-gradient(rgb(0, 1, 51) 0%, rgb(15, 16, 72) 100%)",padding:"120px 50px"}} columns={[1,1,1,1]}>
-     <Heading sx={{color:"white"}}>PROJECTS</Heading>
-        <SimpleGrid sx={{background: "linear-gradient(rgb(0, 1, 51) 0%, rgb(15, 16, 72) 100%)",paddingTop:"120px",gap:"20px"}} columns={[1,1,2,2]}>
+     <Heading sx={{color:"white",textDecoration:"underline",paddingBottom:"4px"}}>PROJECTS</Heading>
+        <SimpleGrid id="some" sx={{background: "linear-gradient(rgb(0, 1, 51) 0%, rgb(15, 16, 72) 100%)",gap:"20px"}} columns={[1,1,2,2]}>
             <Box sx={{lineHeight:"35px"}} w={["auto","auto","auto"]}>
                 <Text class="prot">BeautyBebo Clone</Text>
                 <Text class="prot">BeautyBebo is a well known E-commerce website there are lots of categories available for shopping</Text>
@@ -25,7 +25,7 @@ const Project = () => {
         </SimpleGrid>
         <br/>
      
-        <SimpleGrid  sx={{background: "linear-gradient(rgb(0, 1, 51) 0%, rgb(15, 16, 72) 100%)",paddingTop:"90px",gap:"20px"}} columns={[1,1,2,2]}>
+        <SimpleGrid id="some" sx={{background: "linear-gradient(rgb(15, 16, 72) 0%, rgb(15, 16, 72) 100%)",gap:"20px"}} columns={[1,1,2,2]}>
         <Box sx={{lineHeight:"35px"}} w={["auto","auto","auto"]}>
                 <Text class="prot">Uboric Clone</Text>
                 <Text class="prot">Uboric is a well known E-commerce website here you can buy Kitchen Tools, Health and Personal Care Item.</Text>

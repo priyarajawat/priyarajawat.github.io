@@ -21,7 +21,7 @@ function App() {
      <Skill/>
      <Knowledge/>
      <Project/>
-     
+    
       <Github/> 
       <Footer/>
       

@@ -7,7 +7,7 @@
     color: #fff;
     cursor: pointer;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     font-family: "Codec cold",sans-serif;
     font-size: 16px;
     font-weight: 700;
@@ -18,9 +18,10 @@
     max-width: 100%;
     padding-left: 18px;
     padding-right: 18px;
+    margin: auto;
     padding-top: 2px;
     text-decoration: none;
-    text-transform: uppercase;
+   
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
@@ -42,7 +43,23 @@
     transform: scale(.9);
     opacity: .75;
   }
+  #form{
+    width:60%;
+    margin: auto;
+    
+    padding:2rem;
   
+  }  
+  #input{
+   border: 1px solid gold;
+   height: 57px;
+   width: 100%;
+  }
+  #area{
+    height: 110px;
+    width: 100%;
+    text-align: start;
+  }
   @media screen and (max-width: 991px) {
     .button-75 {
       font-size: 15px;
@@ -52,7 +69,27 @@
     .button-75 span {
       line-height: 50px;
     }
+    #form{
+      width:60%;
+      margin: auto;
+      
+      padding:2rem;
+    
+        
+    }
+    
   }
   #footName{
     font-size: x-large;
+  }
+  @media screen and (max-width: 480px) {
+    #form{
+      width:90%;
+      margin: auto;
+      border: 2px solid white;
+      
+      padding:2rem;
+    
+        
+    }
   }
