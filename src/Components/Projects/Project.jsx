@@ -24,23 +24,46 @@ const Project = () => {
             <Image w={["auto" ,"auto" ,"100%"]} src="https://raw.githubusercontent.com/priyarajawat/image/main/beauty/Screenshot%20(61).png"/>
         </SimpleGrid>
         <br/>
-     
+
+
         <SimpleGrid id="some" sx={{background: "linear-gradient(rgb(15, 16, 72) 0%, rgb(15, 16, 72) 100%)",gap:"20px"}} columns={[1,1,2,2]}>
         <Box sx={{lineHeight:"35px"}} w={["auto","auto","auto"]}>
-                <Text class="prot">Uboric Clone</Text>
-                <Text class="prot">Uboric is a well known E-commerce website here you can buy Kitchen Tools, Health and Personal Care Item.</Text>
-                <Text class="prot"><b>Features :</b>Landing Page, Login & SignUp Page, Sorting and Filtering, Product Added into Cart.</Text>
-                <Text class="prot"> <b>Tech Stack:</b>  HTML | CSS | JavaScript</Text>
+                <Text class="prot">ComicaDigital</Text>
+                <Text class="prot">Comicadigital is a well known E-commerce website here you can shop laptops , TV , cameras from top brands.</Text>
+                <Text class="prot"><b>Features :</b>Landing Page, Login & SignUp Page, Sorting and Filtering, Product Detail Page and added into Cart.</Text>
+                <Text class="prot"> <b>Tech Stack:</b>  HTML | CSS | ReactJs | NodeJs | Mongodb | ChakraUI | Express</Text>
                 <br/>
                 <Flex sx={{gap:"20px"}}>
-                    <Link href='https://github.com/priyarajawat/uboric-website/tree/main/uboric-web"'><Button>Source Code</Button></Link>
-                    <Link href='https://delightful-duckanoo-17fff8.netlify.app/'><Button>Deploy</Button></Link>
+                    <Link href='https://github.com/pg570/ComicaDigital_website"'><Button>Source Code</Button></Link>
+                    <Link href='https://frontend-madhusainadh.vercel.app/'><Button>Deploy</Button></Link>
                     
                 </Flex>
                 
             </Box>
-            <Image w={["auto" ,"auto" ,"100%"]} src="https://raw.githubusercontent.com/priyarajawat/image/main/uboric/Screenshot%20(64).png"/>
+            <Image w={["auto" ,"auto" ,"100%"]} src="https://raw.githubusercontent.com/priyarajawat/image/main/reliance/Screenshot%20(31).png"/>
         </SimpleGrid>
+        <br/>
+
+
+        <SimpleGrid id="some" sx={{background: "linear-gradient(rgb(15, 16, 72) 0%, rgb(15, 16, 72) 100%)",gap:"20px"}} columns={[1,1,2,2]}>
+        <Box sx={{lineHeight:"35px"}} w={["auto","auto","auto"]}>
+                <Text class="prot">Toggle Track</Text>
+                <Text class="prot">Toggl Track is a time tracking software operated by Toggl OÜ, that offers online time tracking and reporting services through their website along with mobile and desktop applications.</Text>
+                <Text class="prot"><b>Features :</b>Login & SignUp Page, Pricing Page and  Time Management Page</Text>
+                <Text class="prot"> <b>Tech Stack:</b>  HTML | CSS | JavaScript</Text>
+                <br/>
+                <Flex sx={{gap:"20px"}}>
+                    <Link href='https://github.com/vivekkhade23/Toggl-Track-Clone'><Button>Source Code</Button></Link>
+                    <Link href='https://toggletrack-beta.vercel.app/'><Button>Deploy</Button></Link>
+                    
+                </Flex>
+                
+            </Box>
+            <Image w={["auto" ,"auto" ,"100%"]} src="https://raw.githubusercontent.com/priyarajawat/image/main/togglt/Screenshot%20(31).png"/>
+        </SimpleGrid>
+        <br/>
+     
+      
         <br/>
    <br/>
    <Text sx={{borderBottom:"1px solid grey",width:"95%",margin:"auto"}}></Text>
@@ -49,4 +72,4 @@ const Project = () => {
   )
 }
 
-export default Project
+export default Project;

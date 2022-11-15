@@ -3,6 +3,21 @@ import { SimpleGrid,Link ,Image,Box,Text,Heading,Button} from '@chakra-ui/react'
 import "./Priya.css"
 
 const Priya = () => {
+
+  const onButtonClick = () => {
+    // using Java Script method to get PDF file
+    fetch('Priya-Rajawat-Resume.pdf').then(response => {
+        response.blob().then(blob => {
+            // Creating new object of PDF file
+            const fileURL = window.URL.createObjectURL(blob);
+            // Setting various property values
+            let alink = document.createElement('a');
+            alink.href = fileURL;
+            alink.download = 'Priya-Rajawat-Resume.pdf';
+            alink.click();
+        })
+    })
+}
   return (
    <SimpleGrid id="about" >
     
@@ -21,7 +36,8 @@ const Priya = () => {
     <Text class="text"> I’m focused on building responsive full-stack web applications.  </Text>
    
     <br/>
-  <Link href="https://drive.google.com/file/d/19Byr95yFt7JlTTUZbaCTJ2t4ujZzaGD4/view?usp=sharing"> <Button id="resume" size={"sm"} m='auto'>RESUME</Button></Link>
+  
+  <Button onClick={onButtonClick} id="resume" size={"sm"} m='auto'>RESUME</Button>
    
     
    </Box>
@@ -30,4 +46,4 @@ const Priya = () => {
   )
 }
 
-export default Priya
+export default Priya;

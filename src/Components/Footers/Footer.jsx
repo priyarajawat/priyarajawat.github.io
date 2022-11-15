@@ -140,4 +140,4 @@ const renderAlert = () => (
   </div>
 )
 
-export default Footer
+export default Footer;

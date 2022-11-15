@@ -33,4 +33,4 @@ const Knowledge = () => {
   )
 }
 
-export default Knowledge
+export default Knowledge;

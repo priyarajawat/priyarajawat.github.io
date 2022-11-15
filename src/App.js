@@ -1,29 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-import Github from './Components/Github/github.jsx';
-import Navbar from './Components/Navbar/Navbar';
 
+import './App.css';
+import WithSubnavigation from './Components/Navbar/NavbarTwo';
+import { GitHub } from './Components/Github/Pthub';
 import About from './Components/About/About';
-import Projects from './Components/Footers/Footer';
+import Skill from './Components/Skiils/Skill';
+import Project from './Components/Projects/Project';
+import Footer from './Components/Footers/Footer';
 import Priya from './Components/Priya/Priya';
 import Knowledge from './Components/knowledge/knowledge';
-import Footer from './Components/Footers/Footer';
-import Project from './Components/Projects/Project';
-import Skill from './Components/Skiils/Skill';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <WithSubnavigation/>
+     
    
-      <Priya/>
-     <About/>
-     <Skill/>
-     <Knowledge/>
-     <Project/>
-    
-      <Github/> 
-      <Footer/>
+     <Priya/>
+    <About/>
+    <Skill/>
+    <Knowledge/>
+    <Project/>
+   
+   
+     <GitHub/>
+     <Footer/>
       
     </div>
   );
