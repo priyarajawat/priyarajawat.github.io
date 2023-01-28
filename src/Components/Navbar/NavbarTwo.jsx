@@ -258,8 +258,5 @@ import {
         label: 'Contact',
         href: '#simple',
       },
-      {
-        label: 'Resume',
-        href: '#',
-      },
+     
   ];

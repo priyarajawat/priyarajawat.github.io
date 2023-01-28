@@ -36,12 +36,12 @@ const Priya = () => {
     <Text class="text"> I’m focused on building responsive full-stack web applications.  </Text>
    
     <br/>
-  
-  <Button onClick={onButtonClick} id="resume" size={"sm"} m='auto'>RESUME</Button>
+    <a target="_blank" href="https://drive.google.com/file/d/1WUOprmAkPeswZ-3Z_jLUnix6B6OsWkZF/view?usp=sharing" > <Button onClick={onButtonClick} id="resume" size={"sm"} m='auto'>RESUME</Button></a>
+
    
     
    </Box>
-   <Image id="aboutI"  src="https://raw.githubusercontent.com/priyarajawat/image/main/ss/Screenshot_2022-09-07-13-21-33-45_99c04817c0de5652397fc8b56c3b3817%20(2).jpg"/>
+   <Image id="aboutI"  src="https://i.ibb.co/kSq4jYC/Screenshot-2022-09-07-13-21-33-45-99c04817c0de5652397fc8b56c3b3817-2.jpg"/>
    </SimpleGrid>
   )
 }

@@ -21,7 +21,7 @@ const Project = () => {
                 </Flex>
                 
             </Box>
-            <Image w={["auto" ,"auto" ,"100%"]} src="https://raw.githubusercontent.com/priyarajawat/image/main/beauty/Screenshot%20(61).png"/>
+            <Image w={["auto" ,"auto" ,"100%"]} src="https://i.ibb.co/1n1YvZV/Screenshot-61.png"/>
         </SimpleGrid>
         <br/>
 
@@ -40,7 +40,7 @@ const Project = () => {
                 </Flex>
                 
             </Box>
-            <Image w={["auto" ,"auto" ,"100%"]} src="https://raw.githubusercontent.com/priyarajawat/image/main/reliance/Screenshot%20(31).png"/>
+            <Image w={["auto" ,"auto" ,"100%"]} src="https://i.ibb.co/6y084TP/Screenshot-43.png"/>
         </SimpleGrid>
         <br/>
 
@@ -59,7 +59,7 @@ const Project = () => {
                 </Flex>
                 
             </Box>
-            <Image w={["auto" ,"auto" ,"100%"]} src="https://raw.githubusercontent.com/priyarajawat/image/main/togglt/Screenshot%20(31).png"/>
+            <Image w={["auto" ,"auto" ,"100%"]} src="https://i.ibb.co/QrZfzyt/Screenshot-31.png"/>
         </SimpleGrid>
         <br/>
      
