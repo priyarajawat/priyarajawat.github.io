@@ -34,8 +34,8 @@ const Project = () => {
                 <Text class="prot"> <b>Tech Stack:</b>  HTML | CSS | ReactJs | NodeJs | Mongodb | ChakraUI | Express</Text>
                 <br/>
                 <Flex sx={{gap:"20px"}}>
-                    <Link href='https://github.com/pg570/ComicaDigital_website"'><Button>Source Code</Button></Link>
-                    <Link href='https://frontend-madhusainadh.vercel.app/'><Button>Deploy</Button></Link>
+                    <Link href='https://github.com/pg570/ComicaDigital_website'><Button>Source Code</Button></Link>
+                    <Link href='https://comicadigital.netlify.app/'><Button>Deploy</Button></Link>
                     
                 </Flex>
                 
