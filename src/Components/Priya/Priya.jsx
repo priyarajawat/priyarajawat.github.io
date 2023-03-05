@@ -36,7 +36,7 @@ const Priya = () => {
     <Text class="text"> I’m focused on building responsive full-stack web applications.  </Text>
    
     <br/>
-    <a target="_blank" href="https://drive.google.com/file/d/13SZcFlGhQxObgfXJ_SY5tBqWRcs2wuUY/view?usp=sharing" > <Button onClick={onButtonClick} id="resume" size={"sm"} m='auto'>RESUME</Button></a>
+    <a target="_blank" href="https://drive.google.com/file/d/1TfuIthnlBAlvFDB4_O1EixS4AILDTmp0/view?usp=sharing" > <Button onClick={onButtonClick} id="resume" size={"sm"} m='auto'>RESUME</Button></a>
 
    
     
